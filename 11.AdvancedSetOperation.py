@@ -13,3 +13,4 @@ print(set_one.union(set_two)) #we can use set union method also for getting unio
 #difference of set means that it will provide the data which is on the first set/Caller Set not in 2nd set it will remove common and return remaining
 print(set_one-set_two) #we can use - to fetch the difference of sets
 print(set_one.difference(set_two)) # we can also use the difference method of set
+ 
