@@ -20,5 +20,5 @@ We can directly check for object like
 if is_programmer:
     print("you are awasome")
 as here is_programmer will be a value otherwise None which is treated as False
- 
-"""
+  
+""" 
