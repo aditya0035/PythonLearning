@@ -81,7 +81,7 @@ print(id(friend_set))
 #friend_set=friend_set+{'Alam'} Set does not support these
 print(id(friend_set))
 print(friend_set)
-#friend_set+=('Hero Alam',) #new address as immutable
+#friend_set+=('Hero Alam',) Set does not support these
 print(id(friend_set))
 print(friend_set)
 
