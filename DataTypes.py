@@ -6,6 +6,7 @@ Python has following types of DataTypes
 but for human being they have
 4.None:Default type of variable
 5.Object
+6.boolean
 
 In python everything is treated as object there is no concept of primitive type
 Variables:are anything which can hold a reference to the object
@@ -71,3 +72,9 @@ print("j : {0}".format(type(j)))
 print("k : {0}".format(type(k)))
 print("j:{0}".format(j))
 print("k:{0}".format(k))
+
+'''
+boolean value are represented  using True False value
+None is treated as false value
+empty [],(),{} are treated as false value
+'''
