@@ -50,4 +50,17 @@ Division,Multiplie
 Addition,Substraction
 '''
 print("f+g:{0}".format(f + g))
-print("f**2:{0}".format(f ** 2))
+print("f**2:{0}".format(f * 2))
+
+'''
+Note:Use // operator with range Generator
+as it work on integer value
+'''
+'''
+for i in range(1, 12/3): #  type error:'float' object cannot be interpreted as an integer
+    print(i)
+'''
+for i in range(1,12//3):
+    print(i)
+# complex Expresion
+print(a + b / 3 - 4 * 12)
