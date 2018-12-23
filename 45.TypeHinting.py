@@ -15,4 +15,4 @@ print(TyeeFunction())
 """
 Type hinting does not alter python workig behaviour that is python will be still weak type language
 but it help the developer to developer application with less error prone
-"""
+""" 
