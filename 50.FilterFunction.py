@@ -19,4 +19,8 @@ print(list(another_list))
 Above is using the generator comprehension and it run  faster then filter function
 
 when we use lambda remeber that return value should be an expression
+
+Filter perfrom better if function is already defined
+if lambda is used then generator work faster
+also filter is more readable so try to use filter as possible
 """
