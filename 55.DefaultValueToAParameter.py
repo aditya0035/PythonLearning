@@ -44,4 +44,6 @@ print(len(jose["holderslist"]))
 """
 As we can see here the list of jose and kim conatins two element that is both are pointing to common
 list so to avoid that we can assign these kind of parameter to None
+
+any non-default argument comes before then default argument
 """
