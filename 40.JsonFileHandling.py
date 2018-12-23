@@ -19,7 +19,7 @@ json.loads() it will load the octent of json string into a variable of dict type
 json.dumps() it will load the content  of dict type into a string variable
 """
 import json
-filePointer=open("json.txt","r")
+filePointer=open("JsonFile.json","r")
 content=json.load(filePointer)
 print(content)
 
