@@ -21,3 +21,9 @@ today_date=datetime.now()
 tommaorw_date=today_date+timedelta(days=1)
 #here time delta will add one day to the current date
 print(tommaorw_date)
+
+"""
+Apart from that we have seprate classes in datetime module to deal with Date and time seprately
+from datetime import date
+from datetime import  time
+"""
