@@ -1,4 +1,4 @@
-iation"""
+"""
 In python error may occurs there are various type of errors in python
 So we ave to trace the stack trace to find out where the error occurs
 1.Index Error
