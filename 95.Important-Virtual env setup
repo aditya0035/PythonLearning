@@ -1,0 +1,42 @@
+When we run python from command line actuall what happend when we type python the command prompt looks for path variable and this is a 
+global variable which stored path seprated by ; 
+when we run a file it say command is not recognized as an internal or external command, operable program or batch file.This is happening 
+becuase that program folder is not in path environment variable which cmd refer
+
+In Real time we run python programs in there environment that is we create a seprate environment for a python project it is necessary as 
+it may happen that different application is using different version of python
+
+these seprated environment in python are called Virtual Environment and to create virtual environment first we need to install virtualenv
+
+When we download python there is a cli which comes and resposiable for downloading python packages from cloud/CDN
+and this command line is pip--Used to install package
+Virtualenv:These manages our python directory project
+to install any package we run the pip command as pip install <packagename>[=version] 
+If a machine has mutiple python version then to run a specific python version we need to type python<version>
+
+To Install virtual environment we need to run below command
+pip install virtualenv
+
+once we have virtual env we can duplicate the python installation.as virtual env is seprate so we need to install all the library needed
+by our project.
+To Creat virtual env we need to run below command
+virtualenv <nameofvirtualenv> --python=Python3.7 if nothing is provided for 2nd args it will copy the default version of python as per path
+2nd args also tell what program to run when we are creating virtual env
+
+Now once virtual environment created no we need to activate it for that we need to lookout for activate.bat file under the <envfolder>/<bin>
+/activate.bat from command line
+
+once virtualenv is activated we will see that name if the leftmost corner of command prompt and command propt will behave like pythonIDLE
+Now if we write Path in that we will get the path of python folder which is under the virtual environment created folder
+
+then if we type pip install <package> then it will install all the packages into that virtual env
+so this will resolve version hell problem and provide us a sepration of concern to our app
+
+if we run a command pip freeze it will list out all the python liberary whhich are install under that virtual env and then we can import them
+and can put in a file called requirement.txt
+if we have all the dependencies liberary of our project in a file the we can share that file and the other user can setup virtual env
+and he has to run only below command
+pip install -r <fileName>
+ this command will install all the libarary in that virtual env
+ 
+
