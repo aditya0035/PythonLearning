@@ -1,0 +1,19 @@
+for dealing with folder/directory structure and dependencies of python app python provide a simple and better virtual environment.
+To Comes out of a virtual env we need to run the deactivate.bat file and then we will comes out of virtual env and then we can delete the folder
+created in our app folder manually
+
+To install pipenv we need to run below command 
+pip install pipenv or pip3.7 install pipenv if this command it giving error then we need to upgreade out pip using pip install --upgreade pip
+
+if we have requirement.txt file in our app then we need to run below command from our app root folder
+pipenv install
+it will install the package from requirement.txt file in our root folder
+and it will create two files
+1.pipfile
+2.pipfile.lock
+pipfile contains all the packages which are installed and there version number,while the pipfile.lock contains content of each dependencies 
+in SH256 hash and the file version number to protect user from installing wrong library for security and privacy purpose
+
+once these file are presnet we can remove requirement.txt and can provide other user these two files
+as pipfile.lock has version no so we can remove that from pipfile.once install part is done it will create a virtual env like virtualenv
+but that env now will be at different location and it will make our project app folder clean 
