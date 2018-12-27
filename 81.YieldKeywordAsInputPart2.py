@@ -18,3 +18,7 @@ greeter=greet(f)
 greeter.send(None)
 greeter.send("Good Evening ")
 
+"""
+These kind of generators which has yield as input parameter is called Co-routine not generator in python
+"""
+
