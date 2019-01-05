@@ -1,0 +1,18 @@
+2018-12-09 20:41:35,778 INFO:Please see the info messagefor maximum readbility the format is
+    2018-12-09 20:41:35,778 INFO     [Logging in python.py:33] Please see the info message
+    
+2018-12-09 20:41:35,778 WARNING:Please see warning messagefor maximum readbility the format is
+    2018-12-09 20:41:35,778 WARNING  [Logging in python.py:34] Please see warning message
+    
+2018-12-09 20:41:35,778 DEBUG:Please see the debug messagefor maximum readbility the format is
+    2018-12-09 20:41:35,778 DEBUG    [Logging in python.py:35] Please see the debug message
+    
+2018-12-09 20:41:35,778 ERROR:Please see the error messagefor maximum readbility the format is
+    2018-12-09 20:41:35,778 ERROR    [Logging in python.py:36] Please see the error message
+    
+2018-12-09 20:41:35,780 CRITICAL:Please see the critical mesaagefor maximum readbility the format is
+    2018-12-09 20:41:35,780 CRITICAL [Logging in python.py:37] Please see the critical mesaage
+    
+2018-12-09 20:41:35,780 INFO:This is the formatted Messagefor maximum readbility the format is
+    2018-12-09 20:41:35,780 INFO     [Logging in python.py:39] This is the formatted Message
+    

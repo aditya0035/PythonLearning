@@ -1,0 +1,4 @@
+Name,Age,School
+Joe,23,MIT
+Kim,25,California
+Jimmy,35,IIT
